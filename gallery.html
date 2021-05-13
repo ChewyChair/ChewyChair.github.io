@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muh test site gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="main.html">
+                    <img src="images/logo-side@2x.png" alt="logo">
+                </a>            
+            </div>
+            <ul>
+                <a href="javascript:void(0);" id="expand" onclick="hamburger()">
+                    NAV
+                    <script src="js/hamburger.js"></script>
+                </a>
+                <div id="Links">
+                    <li><a href="test.html" id="nav4">TEST</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </div>
+            </ul>
+        </div> 
+        <div class="title">
+            <h1>GALLERY</h1>
+        </div>
+        <div class="screenpad"></div>
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+          
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+        <div class="gallery">
+            <div class="row">
+                <div class="column">
+                    <img id="thumbnail" src="images/encikfinal.png">
+                    <img id="thumbnail" src="images/f16.png">
+                    <img id="thumbnail" src="images/huang rong.png">
+                </div>
+                <div class="column">
+                    <img id="thumbnail" src="images/JOJO and SCHIZA.png">
+                    <img id="thumbnail" src="images/naeun.png">
+                    <img id="thumbnail" src="images/practice3 test 090320-2.png">
+                </div>
+                <div class="column">
+                    <img id="thumbnail" src="images/practice5iutest.png">
+                    <img id="thumbnail" src="images/PROJECT VALIANT 260220.png">
+                    <img id="thumbnail" src="images/VALIANT.png">
+                </div>
+                <div class="column">
+                    <img id="thumbnail" src="images/FINAL.png">
+                    <img id="thumbnail" src="images/i will drink from your skull.png">
+                    <img id="thumbnail" src="images/sol intercept 270220.png">
+                </div>
+                <script src="js/modal.js"></script>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

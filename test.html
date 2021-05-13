@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muh test site test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="main.html">
+                    <img src="images/logo-side@2x.png" alt="logo">
+                </a>    
+            </div>
+            <ul>
+                <a href="javascript:void(0);" id="expand" onclick="hamburger()">
+                    NAV
+                    <script src="js/hamburger.js"></script>
+                </a>
+                <div id="Links">
+                    <li><a href="test.html" id="nav4">TEST</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </div>
+            </ul>
+        </div> 
+    </header>
+    <div class="wrapper clearfix">
+        <button class="btn-numdice" id = "N" oncontextmenu="return false">1</button>
+        <button class="btn-sizedice" id="SD" oncontextmenu="return false">d4</button>
+        <button class="btn-roll">roll</button>
+        <button class="btn-result" id ="RES">0</button>
+        <script src="js/dice.js"></script>
+    </div>
+</body>
+</html>
