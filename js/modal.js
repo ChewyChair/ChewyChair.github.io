@@ -7,7 +7,6 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 img.onclick = function(){
-    console.log("asda");
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
